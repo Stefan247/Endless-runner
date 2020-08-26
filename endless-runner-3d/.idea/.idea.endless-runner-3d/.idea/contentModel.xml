@@ -64,6 +64,11 @@
             <e p="PlayerMovement.cs" t="Include" />
             <e p="PlayerScoreScript.cs" t="Include" />
           </e>
+          <e p="TimeScripts" t="Include">
+            <e p="LanternController.cs" t="Include" />
+            <e p="LightController.cs" t="Include" />
+            <e p="LightPresetsScript.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="endless-runner-3d.sln" t="IncludeFlat" />

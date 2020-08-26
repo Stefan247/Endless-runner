@@ -1,14 +1,21 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 namespace GMScripts
 {
     public class ScoreScript : MonoBehaviour
     {
+        public Text scoreText;
         public int score;
 
         private void Start()
         {
             score = 0;
+        }
+
+        private void Update()
+        {
+            scoreText.text = score.ToString();
         }
 
         public void UpdateScore(GameObject collectible)

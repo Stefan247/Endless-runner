@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\stefa\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\stefa\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_endless-runner-3d.979498833.00" t="ExcludeRecursive" />
+    <e p="D:\Projects\endless-runner\endless-runner-3d" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="3DModels" t="Include">
+          <e p="carkit" t="Include">
+            <e p="License.txt" t="Include" />
+          </e>
+          <e p="foodkit" t="Include">
+            <e p="License.txt" t="Include" />
+          </e>
+          <e p="furniturekit" t="Include">
+            <e p="License.txt" t="Include" />
+          </e>
+          <e p="naturekit" t="Include">
+            <e p="License.txt" t="Include" />
+          </e>
+          <e p="platformerkit" t="Include">
+            <e p="License.txt" t="Include" />
+          </e>
+          <e p="roadkit" t="Include">
+            <e p="Convert" t="Include">
+              <e p="Three.js (Blender)" t="Include">
+                <e p="readme.txt" t="Include" />
+              </e>
+            </e>
+            <e p="License.txt" t="Include" />
+          </e>
+          <e p="tdkit" t="Include">
+            <e p="License.txt" t="Include" />
+          </e>
+          <e p="townkit" t="Include">
+            <e p="License.txt" t="Include" />
+          </e>
+          <e p="townkit2" t="Include">
+            <e p="License.txt" t="Include" />
+          </e>
+          <e p="uisounds" t="Include">
+            <e p="License.txt" t="Include" />
+          </e>
+          <e p="weaponkit" t="Include">
+            <e p="License.txt" t="Include" />
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="FoodScripts" t="Include">
+            <e p="FoodRotation.cs" t="Include" />
+          </e>
+          <e p="GMScripts" t="Include">
+            <e p="DestroyFoodScript.cs" t="Include" />
+            <e p="FoodSpawningScript.cs" t="Include" />
+            <e p="HpHandler.cs" t="Include" />
+            <e p="ScoreScript.cs" t="Include" />
+            <e p="ZombieSpawnScript.cs" t="Include" />
+          </e>
+          <e p="MobScripts" t="Include">
+            <e p="ZombieMovement.cs" t="Include" />
+          </e>
+          <e p="PlayerScripts" t="Include">
+            <e p="PlayerMovement.cs" t="Include" />
+            <e p="PlayerScoreScript.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="endless-runner-3d.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -30,7 +30,7 @@ namespace TimeScripts
             
             directionalLight.color = preset.DirectionalColor.Evaluate(timePercent);
             directionalLight.transform.localRotation = 
-                Quaternion.Euler(new Vector3((timePercent * 360f) - 90f, 100f, 0));
+                Quaternion.Euler(new Vector3((timePercent * 360f) - 90f, 135f, 0));
         }
     }
 }

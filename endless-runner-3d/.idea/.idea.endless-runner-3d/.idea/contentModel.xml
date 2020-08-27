@@ -57,6 +57,10 @@
             <e p="ScoreScript.cs" t="Include" />
             <e p="ZombieSpawnScript.cs" t="Include" />
           </e>
+          <e p="MiscScripts" t="Include">
+            <e p="BulletScript.cs" t="Include" />
+            <e p="TowerAttack.cs" t="Include" />
+          </e>
           <e p="MobScripts" t="Include">
             <e p="ZombieMovement.cs" t="Include" />
           </e>
@@ -64,10 +68,18 @@
             <e p="PlayerMovement.cs" t="Include" />
             <e p="PlayerScoreScript.cs" t="Include" />
           </e>
+          <e p="SoundScripts" t="Include">
+            <e p="AudioManager.cs" t="Include" />
+          </e>
           <e p="TimeScripts" t="Include">
             <e p="LanternController.cs" t="Include" />
             <e p="LightController.cs" t="Include" />
             <e p="LightPresetsScript.cs" t="Include" />
+          </e>
+          <e p="UIScripts" t="Include">
+            <e p="CameraController.cs" t="Include" />
+            <e p="UI_Controller.cs" t="Include" />
+            <e p="UITextFlickering.cs" t="Include" />
           </e>
         </e>
       </e>

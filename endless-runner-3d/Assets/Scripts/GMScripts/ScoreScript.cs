@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace GMScripts
@@ -7,6 +9,8 @@ namespace GMScripts
     {
         public Text scoreText;
         public Image[] healthBar;
+        public Text finalScoreText;
+        
         public int score;
         public int hp;
         public const int MaxHealth = 3;
@@ -15,6 +19,7 @@ namespace GMScripts
         {
             score = 0;
             hp = 3;
+            finalScoreText.enabled = false;
         }
 
         private void Update()
@@ -28,12 +33,9 @@ namespace GMScripts
             {
                 score += 2;
             }
-            else
+            else if (score > 0) 
             {
-                if (score > 0)
-                {
-                    score--;
-                }
+                score--;
             }
 
             if (collectible.CompareTag("Coin"))
@@ -46,14 +48,8 @@ namespace GMScripts
         {
             hp += value;
 
-            if (hp <= 0)
-            {
-                Application.LoadLevel(Application.loadedLevel);
-            }
-            if (hp > 3)
-            {
-                hp = 3;
-            }
+            CheckIfDead();
+            CheckOverflow();
             
             for (int i = 0; i < hp; i++)
             {
@@ -64,6 +60,30 @@ namespace GMScripts
             {
                 healthBar[i].enabled = false;
             }
+        }
+
+        private void CheckOverflow()
+        {
+            if (hp > 3) 
+            { 
+                hp = 3;
+            }
+        }
+
+        private void CheckIfDead()
+        {
+            if (hp <= 0)
+            { 
+                hp = 0;
+                finalScoreText.text = "Score: " + score.ToString();
+                finalScoreText.enabled = true;
+                Invoke("RestartGame", 0.75f);
+            }
+        }
+
+        private void RestartGame()
+        {
+            SceneManager.LoadScene(0);
         }
     }
 }

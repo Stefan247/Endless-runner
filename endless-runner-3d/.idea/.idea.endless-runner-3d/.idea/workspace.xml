@@ -26,17 +26,23 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeScripts/LightController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FoodScripts/FoodRotation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GMScripts/DestroyFoodScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/TowerAttack.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundScripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GMScripts/ZombieSpawnScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerScoreScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MobScripts/ZombieMovement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeScripts/LightPresetsScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GMScripts/HpHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIScripts/UI_Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeScripts/LanternController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GMScripts/ScoreScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GMScripts/FoodSpawningScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeScripts/LightController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/BulletScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GMScripts/DestroyFoodScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIScripts/UITextFlickering.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIScripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerScoreScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeScripts/LightPresetsScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GMScripts/ScoreScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -49,13 +55,23 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MobScripts/ZombieMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimeScripts/LightPresetsScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimeScripts/LanternController.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TimeScripts/LightController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/HpHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerScoreScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/FoodSpawningScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodScripts/FoodRotation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/ZombieSpawnScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI_Controller.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIScripts/UiTextFlickering.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIScripts/UITextFlickering.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIScripts/CameraController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UIScripts/UI_Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/ScoreScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerScoreScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MiscScripts/TowerAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MiscScripts/BulletScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TimeScripts/LightController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SoundScripts/AudioManager.cs" />
       </list>
     </option>
   </component>
@@ -111,6 +127,9 @@
       <workItem from="1598455026465" duration="364000" />
       <workItem from="1598513256008" duration="1514000" />
       <workItem from="1598515049912" duration="3462000" />
+      <workItem from="1598527989446" duration="4499000" />
+      <workItem from="1598532548973" duration="3276000" />
+      <workItem from="1598537994292" duration="1387000" />
     </task>
     <servers />
   </component>

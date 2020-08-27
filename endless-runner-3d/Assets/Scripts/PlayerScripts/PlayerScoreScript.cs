@@ -1,5 +1,6 @@
 ﻿using System;
 using GMScripts;
+using MiscScripts;
 using UnityEngine;
 
 namespace PlayerScripts
@@ -8,6 +9,7 @@ namespace PlayerScripts
     {
         public ScoreScript scoreHandler;
         public ZombieSpawnScript zombieHandler;
+        public TowerAttack towerHandler;
 
         private void OnTriggerEnter(Collider other)
         {
@@ -20,6 +22,11 @@ namespace PlayerScripts
             if (other.gameObject.CompareTag("Food"))
             {
                 zombieHandler.SpawnZombies();
+            }
+
+            if (other.gameObject.CompareTag("GoodFood"))
+            {
+                towerHandler.AddPizza();
             }
 
             if (other.gameObject.CompareTag("Box"))

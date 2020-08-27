@@ -9,7 +9,7 @@ namespace FoodScripts
         private void Update()
         {
             transform.RotateAround(transform.position, Vector3.up, angle);
-            angle += Time.deltaTime * 0.125f;
+            angle += Time.deltaTime * 0.2f;
         }
     }
 }

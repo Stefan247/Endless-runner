@@ -9,6 +9,9 @@ TagManager:
   - Destroyer
   - GoodFood
   - Enemy
+  - Box
+  - Coin
+  - Heart
   layers:
   - Default
   - TransparentFX

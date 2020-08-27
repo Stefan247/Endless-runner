@@ -6,6 +6,8 @@ namespace GMScripts
     {
         public Transform[] spawnPoints;
         public Rigidbody[] collectibles;
+        public Rigidbody boxPrefab;
+        public Rigidbody heartPrefab;
         
         public float foodSpeed = 100f;
         public float foodRepeatRate = 1f;
@@ -29,8 +31,9 @@ namespace GMScripts
 
         private void SpawnFoodHandler()
         {
-            int freeSpace = Random.Range(0, 2);
-
+            int freeSpace = Random.Range(0, 3);
+            int randomization = Random.Range(0, 10);
+            
             for (int i = 0; i < spawnPoints.Length; i++)
             {
                 if (i != freeSpace)
@@ -38,6 +41,20 @@ namespace GMScripts
                     Rigidbody collectible = Instantiate(collectibles[Random.Range(0, collectibles.Length)],
                         spawnPoints[i].position, Quaternion.identity);
                     collectible.AddForce(0f, 0f, -foodSpeed);
+                }
+                else
+                {
+                    if (randomization != 9)
+                    {
+                        Rigidbody box = Instantiate(boxPrefab, spawnPoints[i].position - new Vector3(0.1f, 0f, 0.1f),
+                            Quaternion.identity);
+                        box.AddForce(0f, 0f, -foodSpeed);
+                    }
+                    else
+                    {
+                        Rigidbody heart = Instantiate(heartPrefab, spawnPoints[i].position, Quaternion.identity);
+                        heart.AddForce(0f, 0f, -foodSpeed);
+                    }
                 }
             }
         }

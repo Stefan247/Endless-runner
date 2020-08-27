@@ -12,7 +12,7 @@ namespace PlayerScripts
         private const float Tolerance = 0.1f;
             
         private float x_input;
-        private float movementSpeed = 5f;
+        private float movementSpeed = 3.5f;
         private static readonly int IsMoving = Animator.StringToHash("isMoving");
 
         private void Update()

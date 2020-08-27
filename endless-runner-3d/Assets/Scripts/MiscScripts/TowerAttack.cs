@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace MiscScripts
 {
@@ -8,6 +9,7 @@ namespace MiscScripts
     {
         public GameObject bulletPrefab;
         public GameObject enemy;
+        public Text ammo;
         
         public Transform firePoint;
 
@@ -21,13 +23,13 @@ namespace MiscScripts
         private void Update()
         {
             enemy = GameObject.FindGameObjectWithTag("Enemy");
-            if (enemy != null)
-                transform.LookAt(enemy.transform);
+            ammo.text = pizzaCount.ToString();
         }
         private void ShootPizza()
         {
-            if (pizzaCount > 0)
+            if (pizzaCount > 0 && enemy != null)
             {
+                transform.LookAt(enemy.transform);
                 Shoot();
                 pizzaCount--;
             }
@@ -40,7 +42,10 @@ namespace MiscScripts
         
         public void AddPizza()
         {
-            pizzaCount++;
+            if (pizzaCount < 10)
+            {
+                pizzaCount++;
+            }
         }
     }
 }

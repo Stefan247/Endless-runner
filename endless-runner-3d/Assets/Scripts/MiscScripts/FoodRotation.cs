@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace FoodScripts
+namespace MiscScripts
 {
     public class FoodRotation : MonoBehaviour
     {

@@ -47,9 +47,6 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
-          <e p="FoodScripts" t="Include">
-            <e p="FoodRotation.cs" t="Include" />
-          </e>
           <e p="GMScripts" t="Include">
             <e p="DestroyFoodScript.cs" t="Include" />
             <e p="FoodSpawningScript.cs" t="Include" />
@@ -59,6 +56,7 @@
           </e>
           <e p="MiscScripts" t="Include">
             <e p="BulletScript.cs" t="Include" />
+            <e p="FoodRotation.cs" t="Include" />
             <e p="TowerAttack.cs" t="Include" />
           </e>
           <e p="MobScripts" t="Include">

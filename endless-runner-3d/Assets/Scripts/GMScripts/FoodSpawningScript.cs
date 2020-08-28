@@ -26,8 +26,8 @@ namespace GMScripts
 
         private void SpeedHandler()
         {
-            foodSpeed += 5f;
-            if (foodRepeatRate > 0.4f)
+            foodSpeed += 10f;
+            if (foodRepeatRate > 0.1f)
             {
                 foodRepeatRate -= 0.1f;
             }

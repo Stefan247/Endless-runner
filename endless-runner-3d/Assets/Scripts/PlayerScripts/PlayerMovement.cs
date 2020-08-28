@@ -7,8 +7,8 @@ namespace PlayerScripts
         public Animator anim;
         public Rigidbody rb;
 
-        private static readonly Vector3 LookLeft = new Vector3(0f, -10f, 0f);
-        private static readonly Vector3 LookRight = new Vector3(0f, 10f, 0f);
+        private static readonly Vector3 LookLeft = new Vector3(0f, -15f, 0f);
+        private static readonly Vector3 LookRight = new Vector3(0f, 15f, 0f);
         private const float Tolerance = 0.1f;
             
         private float x_input;

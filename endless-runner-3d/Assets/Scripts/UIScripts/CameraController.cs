@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using SoundScripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -25,6 +26,7 @@ namespace UIScripts
                 currentView = views[1];
                 idle_player.active = false;
                 Time.timeScale = 1f;
+                FindObjectOfType<AudioManager>().Play("game_start");
             }
             if (Input.GetKeyDown(KeyCode.Escape))
             {

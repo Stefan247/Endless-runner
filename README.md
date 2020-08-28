@@ -1,5 +1,5 @@
 # endless-runner
 
-Demo:
+Protect your home by collecting pizza & coins. Avoid everything else.
 
-![Alt text](https://github.com/Stefan247/Endless-runner/tree/master/endless-runner-3d/Assets/DEMO_Screenshot.png)
+![Screenshot](https://github.com/Stefan247/Endless-runner/tree/master/endless-runner-3d/Assets/DEMO_Screenshot.png)

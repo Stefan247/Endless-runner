@@ -15,19 +15,19 @@ namespace GMScripts
         
         private void Start()
         {
-            InvokeRepeating(nameof(SpawnHandler), 2f, foodRepeatRate);
+            Invoke(nameof(SpawnHandler), 2f);
             InvokeRepeating(nameof(SpeedHandler), 10f, speedRepeatRate);
         }
         
         private void SpawnHandler()
         {
-            Invoke(nameof(SpawnFoodHandler), 0f);
+            InvokeRepeating(nameof(SpawnFoodHandler), 0f, foodRepeatRate);
         }
 
         private void SpeedHandler()
         {
             foodSpeed += 10f;
-            if (foodRepeatRate > 0.1f)
+            if (foodRepeatRate > 0.4f)
             {
                 foodRepeatRate -= 0.1f;
             }

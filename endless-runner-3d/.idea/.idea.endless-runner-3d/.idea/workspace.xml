@@ -28,6 +28,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/TowerAttack.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundScripts/AudioManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/MeteoriteController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GMScripts/ZombieSpawnScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MobScripts/ZombieMovement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/FoodRotation.cs" root0="FORCE_HIGHLIGHTING" />
@@ -39,10 +40,13 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/BulletScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GMScripts/DestroyFoodScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIScripts/UITextFlickering.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GMScripts/RandomEBoxes.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIScripts/CameraController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerScoreScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TimeScripts/LightPresetsScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GMScripts/MeteoriteScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SoundScripts/SoundPreset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MiscScripts/FixCollisions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GMScripts/ScoreScript.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -51,7 +55,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerMovement/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FoodMovement.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/DestroyFoodScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MobScripts/ZombieMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimeScripts/LightPresetsScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimeScripts/LanternController.cs" />
@@ -62,21 +65,26 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UIScripts/UITextFlickering.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIScripts/UI_Controller.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerAttack.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MiscScripts/BulletScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TimeScripts/LightController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MiscScripts/FoodRotation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MiscScripts/TowerAttack.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SoundScripts/SoundPreset.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SoundScripts/AudioManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/FoodSpawningScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UIScripts/CameraController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/ScoreScript.cs" />
         <option value="$PROJECT_DIR$/Assets/PostProcessingVolume/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" />
         <option value="$PROJECT_DIR$/Assets/PostProcessingVolume/PostProcessing/Editor/Utils/CurveEditor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerScoreScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/ZombieSpawnScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/HpHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MiscScripts/FixCollisions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/FoodSpawningScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MiscScripts/MeteoriteController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MiscScripts/TowerAttack.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MiscScripts/BulletScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/ZombieSpawnScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/RandomEBoxes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/DestroyFoodScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PlayerScripts/PlayerScoreScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GMScripts/MeteoriteScript.cs" />
       </list>
     </option>
   </component>
@@ -144,6 +152,9 @@
       <workItem from="1598855508495" duration="12000" />
       <workItem from="1598855567555" duration="111000" />
       <workItem from="1598855919368" duration="2372000" />
+      <workItem from="1598859689708" duration="2203000" />
+      <workItem from="1598867292943" duration="8593000" />
+      <workItem from="1598875959507" duration="21000" />
     </task>
     <servers />
   </component>
@@ -153,6 +164,10 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="WindowStateProjectService">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1598875149199">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/1920.-204.2048.1112@0.0.1920.1040" timestamp="1598875149199" />
     <state x="2607" y="39" width="672" height="678" key="search.everywhere.popup" timestamp="1598429994390">
       <screen x="1920" y="-204" width="2048" height="1112" />
     </state>

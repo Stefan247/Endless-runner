@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
 namespace MiscScripts
@@ -10,7 +8,6 @@ namespace MiscScripts
         public GameObject bulletPrefab;
         public GameObject enemy;
         public Text ammo;
-        
         public Transform firePoint;
 
         private int pizzaCount;

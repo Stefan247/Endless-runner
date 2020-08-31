@@ -1,5 +1,4 @@
-﻿using System;
-using GMScripts;
+﻿using GMScripts;
 using MiscScripts;
 using SoundScripts;
 using UnityEngine;
@@ -27,6 +26,7 @@ namespace PlayerScripts
             else
             {
                 comboText.text = "";
+                comboText.color = Color.black;
             }
         }
         
@@ -49,6 +49,14 @@ namespace PlayerScripts
             {
                 audioManager.Play("collect_pizza");
                 combo++;
+                if (combo > 5)
+                {
+                    comboText.color = Color.yellow;
+                }
+                if (combo > 10)
+                {
+                    comboText.color = Color.red;
+                }
                 towerHandler.AddPizza();
             }
 

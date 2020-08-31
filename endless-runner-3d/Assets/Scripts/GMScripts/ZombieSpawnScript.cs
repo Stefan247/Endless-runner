@@ -1,12 +1,10 @@
-﻿using System.Collections;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace GMScripts
 {
     public class ZombieSpawnScript : MonoBehaviour
     {
         public Transform[] spawnPoints;
-
         public GameObject zombiePrefab;
         public GameObject effectPrefab;
 

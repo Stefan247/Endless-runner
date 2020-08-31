@@ -51,12 +51,16 @@
             <e p="DestroyFoodScript.cs" t="Include" />
             <e p="FoodSpawningScript.cs" t="Include" />
             <e p="HpHandler.cs" t="Include" />
+            <e p="MeteoriteScript.cs" t="Include" />
+            <e p="RandomEBoxes.cs" t="Include" />
             <e p="ScoreScript.cs" t="Include" />
             <e p="ZombieSpawnScript.cs" t="Include" />
           </e>
           <e p="MiscScripts" t="Include">
             <e p="BulletScript.cs" t="Include" />
+            <e p="FixCollisions.cs" t="Include" />
             <e p="FoodRotation.cs" t="Include" />
+            <e p="MeteoriteController.cs" t="Include" />
             <e p="TowerAttack.cs" t="Include" />
           </e>
           <e p="MobScripts" t="Include">

@@ -7,7 +7,6 @@ namespace UIScripts
 {
     public class CameraController : MonoBehaviour
     {
-
         public Transform[] views;
         public Transform currentView;
         public GameObject idle_player;

@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using PlayerScripts;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -7,6 +8,8 @@ namespace GMScripts
 {
     public class ScoreScript : MonoBehaviour
     {
+        public PlayerScoreScript playerScript;
+        
         public Text scoreText;
         public Image[] healthBar;
         public Text finalScoreText;
@@ -31,7 +34,7 @@ namespace GMScripts
         {
             if (collectible.CompareTag("GoodFood"))
             {
-                score += 2;
+                score += 2 + playerScript.combo * 2;
             }
             else if (score > 0) 
             {
@@ -40,7 +43,7 @@ namespace GMScripts
 
             if (collectible.CompareTag("Coin"))
             {
-                score += 10;
+                score += 10 + playerScript.combo * 10;
             }
         }
 

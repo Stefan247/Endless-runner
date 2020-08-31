@@ -3,6 +3,7 @@ using GMScripts;
 using MiscScripts;
 using SoundScripts;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace PlayerScripts
 {
@@ -12,7 +13,23 @@ namespace PlayerScripts
         public ZombieSpawnScript zombieHandler;
         public TowerAttack towerHandler;
         public AudioManager audioManager;
+        public Text comboText;
+        public GameObject getHitEffect;
+        
+        public int combo;
 
+        public void Update()
+        {
+            if (combo > 0)
+            {
+                comboText.text = "x" + combo;
+            }
+            else
+            {
+                comboText.text = "";
+            }
+        }
+        
         private void OnTriggerEnter(Collider other)
         {
             if (other.gameObject.CompareTag("Food") || other.gameObject.CompareTag("GoodFood"))
@@ -24,19 +41,24 @@ namespace PlayerScripts
             if (other.gameObject.CompareTag("Food"))
             {
                 audioManager.Play("ghost_spawn");
+                combo = 0;
                 zombieHandler.SpawnZombies();
             }
 
             if (other.gameObject.CompareTag("GoodFood"))
             {
                 audioManager.Play("collect_pizza");
+                combo++;
                 towerHandler.AddPizza();
             }
 
             if (other.gameObject.CompareTag("Box"))
             {
                 audioManager.Play("losing_hp");
+                GameObject getHit = Instantiate(getHitEffect, transform.position, Quaternion.identity);
+                combo = 0;
                 Destroy(other.gameObject);
+                Destroy(getHit, 0.1f);
                 scoreHandler.UpdateHp(-1);
             }
 
